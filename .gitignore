@@ -1,0 +1,31 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+Include/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Configuracoes locais e caches
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados pelos scripts
+grafo_biblico.png
+grafo_biblico_interativo.html
+grafo_referencias_biblicas.html
+grafo_referencias_biblicas.png
+ranking_versiculos_conexoes.csv
+top_100_versiculos_conexoes.csv
+rede_biblica_completa.gexf
+rede_completa_referencias_biblicas.gexf
